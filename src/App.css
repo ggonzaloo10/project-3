@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+
+  /* COLORS: */
+  --blue-main: #304C89;
+  --blue-medium: #648DE5;
+  --white: #FFFFFF;
+  --ocher: #CDC392;
+  --ocher-light: #E8E5DA;
+
+ /* FONTS */
+  --font-spartan:  'League Spartan';
+  --font-baskerville:  'Libre Baskerville';
+
+  /* UNITS  */
+  --unit: 8px;
+  --space: calc(var(--unit) * 2);
+}
+
+*{
+  box-sizing: border-box;
+   padding: 0 0 0 0;
+   margin: 0 0 0 0;
+ }
+
+ .App{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ body{
+   background-color: var(--blue-main);
+ }
