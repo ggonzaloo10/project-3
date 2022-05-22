@@ -9,7 +9,7 @@ export default function AboutMe() {
             <h2 className='h2'>Designer and Web developer</h2>
         </div>
 
-        <button className='button-aboutMe'>About me</button>
+        <button className='button'>About me</button>
 
         <div className='aboutMe-content'>
             <div className="aboutMe-content_item">

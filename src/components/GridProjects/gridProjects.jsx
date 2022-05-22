@@ -1,16 +1,21 @@
 import React from 'react';
 import './style-gridProjects.css';
+import { Link } from "react-router-dom";
 
 export default function GridProjects() {
-    return <div className='grid-projects'>
 
-        <button className='button-aboutMe'>Projects</button>
+    const projects = [
+        { title: 'Personal Web', subtitle: 'Made with HTML and CSS' },
+        { title: 'Saetabis Summer School', subtitle: 'Full developed, focusing on UX/UI' },
+        { title: 'Wod Maker', subtitle: 'Full developed, focusing on Front End.' },
+    ];
 
-        <div className="projects-container">
-            <a href=""><div className="projects-card card-title">Personal Web <p>Made with HTML and CSS</p></div></a>
-            <a href=""><div className="projects-card card-title">Saetabis Summer School <p>Full developed, focusing on UX/UI</p></div></a>
-            <a href=""><div className="projects-card card-title">Wod Maker <p>Full developed, focusing on Front End.</p></div></a>
-        </div>
-        
-    </div>;
+    return projects.map((project) => (
+        <a href=""><div className="projects-card card-title">{project.title} <p>{project.subtitle}</p></div></a>
+        //     <Link to={`../chat/${contact.name}`}><Contact
+        //     image={contact.image}
+        //     name={contact.name}
+        //     tel={contact.tel}></Contact>
+        // </Link>
+    ) )
 }

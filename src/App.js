@@ -7,10 +7,17 @@ import AboutMe from './components/section-aboutme/aboutme';
 function App() {
   return (
     <div className="App">
-      <Header/>   
-      <AboutMe/>  
-      <GridProjects/> 
-      <Footer/>
+      <Header />
+      <AboutMe />
+      <div className='grid-projects'>
+
+        <button className='button'>Projects</button>
+
+        <div className="projects-container">
+          <GridProjects />
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }
