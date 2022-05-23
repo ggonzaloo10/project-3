@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Personal Web",
+        "subtitle": " Made with HTML and CSS",
+        "role": "Made with HTML and CSS",
+        "period": "2021",
+        "introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis, lacinia nascetur velit ultrices nec diam tempus consequat magnis, lectus etiam dictumst vestibulum torquent hac lobortis. Suspendisse lobortis dictumst nisi tincidunt inceptos, turpis tellus blandit interdum sollicitudin, pellentesque ut himenaeos natoque. Conubia velit porttitor diam vitae interdum facilisi, quam ut habitant at cum turpis, hac sem facilisis nibh rhoncus.",
+        "Analysis & preparation": "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis",
+        "final result": "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis"
+    },
+    {
+        "title": "Saetabis Summer School",
+        "subtitle": "Full developed, focusing on UX/UI",
+        "role": "Full developed, focusing on UX/UI",
+        "period": "2022",
+        "introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis, lacinia nascetur velit ultrices nec diam tempus consequat magnis, lectus etiam dictumst vestibulum torquent hac lobortis. Suspendisse lobortis dictumst nisi tincidunt inceptos, turpis tellus blandit interdum sollicitudin, pellentesque ut himenaeos natoque. Conubia velit porttitor diam vitae interdum facilisi, quam ut habitant at cum turpis, hac sem facilisis nibh rhoncus.",
+        "Analysis & preparation": "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis",
+        "final result": "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis"
+    },
+    {
+        "title": "Wod Maker",
+        "subtitle": "Full developed, focusing on Front End.",
+        "role": "Full developed, focusing on Front End",
+        "period": "2022",
+        "introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis, lacinia nascetur velit ultrices nec diam tempus consequat magnis, lectus etiam dictumst vestibulum torquent hac lobortis. Suspendisse lobortis dictumst nisi tincidunt inceptos, turpis tellus blandit interdum sollicitudin, pellentesque ut himenaeos natoque. Conubia velit porttitor diam vitae interdum facilisi, quam ut habitant at cum turpis, hac sem facilisis nibh rhoncus.",
+        "Analysis & preparation": "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis",
+        "final result": "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis"
+    }
+]
