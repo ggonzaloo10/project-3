@@ -34,3 +34,7 @@
  body{
    background-color: var(--blue-main);
  }
+
+ button{
+   cursor: pointer;
+ }
