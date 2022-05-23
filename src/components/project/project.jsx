@@ -1,7 +1,10 @@
 import React from 'react';
 import './style-project.css';
-import Footer from './components/footer/footer';
-import Header from './components/header/header';
+import Cover from './projects-components/cover';
+import Intro from './projects-components/intro';
+import Content from './projects-components/content';
+import FinalResult from './projects-components/finalResult';
+import Moreprojects from './projects-components/moreProjects';
 
 function ProjectPage() {
   return (
