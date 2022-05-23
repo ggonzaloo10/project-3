@@ -2,7 +2,7 @@ import React from 'react';
 import './style-footer.css';
 
 export default function Footer() {
-    return <footer>
+    return <footer id='contact'>
 
         <div className="footer-text">
             <p>2022 Gonzalo Soriano | gonzalosofran@hotmail.com | 46023 Valencia</p>

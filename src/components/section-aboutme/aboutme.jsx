@@ -3,7 +3,7 @@ import './style-aboutme.css';
 import image from '../img/foto-carnet.jpg';
 
 export default function AboutMe() {
-    return <section>
+    return <section id='aboutMe'>
         <div className='aboutMe-title'>
             <h1 className='h1'>Gonzalo Soriano</h1>
             <h2 className='h2'>Designer and Web developer</h2>
