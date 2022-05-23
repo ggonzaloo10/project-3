@@ -1,5 +1,5 @@
 import './App.css';
-import Footer from './components/footer/footer';
+import Footer from './components/footer/Footer';
 import GridProjects from './components/GridProjects/gridProjects';
 import Header from './components/header/header';
 import AboutMe from './components/section-aboutme/aboutme';

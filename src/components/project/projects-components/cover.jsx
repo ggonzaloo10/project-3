@@ -1,5 +1,6 @@
 import React from "react";
 import './style-cover.css';
+import project from "../project";
 
 export default function Cover() {
 

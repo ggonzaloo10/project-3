@@ -1,14 +1,14 @@
 import React from 'react';
-import './style-footer.css';
+import styles from "./Footer.module.css";
 
 export default function Footer() {
     return <footer id='contact'>
 
-        <div className="footer-text">
+        <div className={styles.footer}>
             <p>2022 Gonzalo Soriano | gonzalosofran@hotmail.com | 46023 Valencia</p>
 
         </div>
-        <div className="social-icons">
+        <div className={styles.social_icons}>
             
             <svg width="58" height="56" viewBox="0 0 58 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_d_134_123)">
@@ -87,7 +87,7 @@ export default function Footer() {
             </svg>
 
         </div>
-        <div className="footer-text">
+        <div className={styles.footer}>
             <p><a href="">Terms of use</a> - <a href="">Privacy</a> - <a href="">Cookies</a> </p>
 
         </div>
