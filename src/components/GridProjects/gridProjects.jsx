@@ -13,12 +13,12 @@ export default function GridProjects() {
     // ];
 
     return projects.map((project) => (
-        <a href=""><div className="projects-card card-title">{project.title} <p>{project.subtitle}</p></div></a>
-        // <Link to={`/project/${projects.title}`}>
-        //     <Project>
-        //         name={project.name}
-        //         subtitle={project.subtitle}
-        //     </Project>
-        // </Link>
+        // <a href=""><div className="projects-card card-title">{project.title} <p>{project.subtitle}</p></div></a>
+        <Link to={`/project/${projects.title}`}>
+            <ProjectButton>
+                name={project.title}
+                subtitle={project.subtitle}
+            </ProjectButton>
+        </Link>
     ))
 }
