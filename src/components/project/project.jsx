@@ -1,21 +1,27 @@
 import React from 'react';
 import './style-project.css';
 import Cover from './projects-components/cover';
-import Intro from './projects-components/intro';
-import Content from './projects-components/content';
-import FinalResult from './projects-components/finalResult';
-import Moreprojects from './projects-components/moreProjects';
+import { useParams,useState } from 'react';
+import projects from '../GridProjects/projects.json';
 
-function ProjectPage() {
+function Project() {
+  const [project, setProject] = useState();
+
+  const parameters = useParams();
+  
+  setProject(projects.find(project => project.id === parameters.id));
+
   return (
     <div className="project-page">
-      <Cover/>
+      <h1>{project && project.title}</h1>
+      <Cover project={project.title}/>
+      {/*
       <Intro/>
       <Content/>
       <FinalResult/>
-      <Moreprojects/>
+      <Moreprojects/> */}
     </div>
   );
 }
 
-export default ProjectPage;
+export default Project;

@@ -1,8 +1,8 @@
 import React from 'react';
 import './style-gridProjects.css';
 import { Link } from "react-router-dom";
-import Project from '../project/project';
 import projects from './projects.json';
+import ProjectButton from '../projectButton/ProjectButton';
 
 export default function GridProjects() {
 
@@ -12,13 +12,11 @@ export default function GridProjects() {
     //     { title: 'Wod Maker', subtitle: 'Full developed, focusing on Front End.' },
     // ];
 
-    return projects.map((project) => (
+    return  projects.map((project) => 
         // <a href=""><div className="projects-card card-title">{project.title} <p>{project.subtitle}</p></div></a>
-        <Link to={`/project/${projects.title}`}>
-            <ProjectButton>
-                name={project.title}
-                subtitle={project.subtitle}
+        <Link key={project.id} to={`/project/${project.id}`}>
+            <ProjectButton  title = {project.title}
+                subtitle = {project.subtitle}>
             </ProjectButton>
-        </Link>
-    ))
+        </Link>);
 }

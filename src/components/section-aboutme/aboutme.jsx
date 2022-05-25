@@ -18,7 +18,7 @@ export default function AboutMe() {
 
         <button onClick={onOff} className={stateMenu ? "button" : "invisible"}>About me</button>
 
-        <div className={stateMenu ? "invisible" : "aboutMe-content"}>
+         <div className={stateMenu ? "invisible" : "aboutMe-content"}>
             <div onClick={onOff} className="menu-icon">
                 <svg className="visible" width="20" height="20" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <line x1="1.93934" y1="35.8805" x2="35.8805" y2="1.93938" stroke="#CDC392" stroke-width="3" />
@@ -45,7 +45,7 @@ export default function AboutMe() {
                 <li>- Creativity. </li>
                 <li>- Growth and continuous learning. </li>
             </ul>
-        </div>
+        </div> 
 
     </section>;
 }
