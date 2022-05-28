@@ -11,7 +11,7 @@ export default function Home() {
 
             <div className="projects-container">
 
-                <GridProjects />
+                <GridProjects/>
             </div>
         </div>
     </>

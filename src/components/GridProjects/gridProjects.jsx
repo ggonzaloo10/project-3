@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './style-gridProjects.css';
-import { Link } from "react-router-dom";
+import { useState } from "react";
 import projects from './projects.json';
-import ProjectButton from '../projectButton/ProjectButton';
+import ProjectCard from '../projectCard/ProjectCard';
 
 export default function GridProjects() {
+
+    //PARA QUE FUNCIONE LA LANDING CON HOME, TIENE QUE ESTAR ESTA LINEA DE USESTATE
+    const [projects, setProjects] = useState([]);
+
 
     // const projects = [
     //     { title: 'Personal Web', subtitle: 'Made with HTML and CSS' },
@@ -12,11 +16,18 @@ export default function GridProjects() {
     //     { title: 'Wod Maker', subtitle: 'Full developed, focusing on Front End.' },
     // ];
 
-    return  projects.map((project) => 
-        // <a href=""><div className="projects-card card-title">{project.title} <p>{project.subtitle}</p></div></a>
-        <Link key={project.id} to={`/project/${project.id}`}>
-            <ProjectButton  title = {project.title}
-                subtitle = {project.subtitle}>
-            </ProjectButton>
-        </Link>);
+
+
+  
+
+return (
+    <div>
+        {projects.map((project) => (
+            <ProjectCard key={project.id} title={project.title}
+                subtitle={project.subtitle} />
+        ))}
+
+    </div>
+);
 }
+
