@@ -1,5 +1,6 @@
-a {
+.link-card {
     display: contents;
+    color: var(--blue-main);
 }
 
 .grid-projects {
@@ -41,7 +42,8 @@ a {
     font-family: var(--font-spartan);
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: clamp(1.5rem, 8vw - 1.6rem, 1.8rem);
     line-height: 26px;
     
     color: var(--blue-main);
