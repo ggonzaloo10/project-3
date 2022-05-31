@@ -39,3 +39,30 @@
  button{
    cursor: pointer;
  }
+
+ .button {
+  border: 1px solid var(--ocher);
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-spartan);
+  padding: var(--unit);
+  font-size: calc(var(--unit) * 2);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+}
+
+.button:hover {
+  color: var(--blue-main);
+  background-color: var(--white);
+}
+
+.button--lightbg{
+  color: var(--blue-main);
+  border-color: var(--blue-main);
+}
+
+.button--lightbg:hover{
+  
+  border-color: var(--ocher);
+}
