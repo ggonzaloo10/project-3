@@ -11,8 +11,8 @@ export default function Cover() {
     <div style={{ backgroundImage: `url(${proje.imagecover})`, backgroundPosition: 'center', backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat'}} className={styles.cover} >
 
-        <h1 style={{ textAlign: `center`}}>{proje.title}</h1>
-        <a href={proje.url} target="_blank" rel="noreferrer"><button className="button button--lightbg">Visit Website</button></a>
+        <h1 style={{ textAlign: `center`}} className={proje.theme}>{proje.title}</h1>
+        <a href={proje.url} target="_blank" rel="noreferrer"><button className={proje.buttontheme}>Visit Website</button></a>
         </div>
 
         <div className={styles.note_cover}>
