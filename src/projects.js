@@ -8,7 +8,7 @@ let projects = [
         imagecover: "/coverpersonalweb.png",
         period: "2021",
         url: "https://frontend.esatid3-2021.com/gonzalo/about%20me%20gonzalo/index.html",
-        introduction: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis, lacinia nascetur velit ultrices nec diam tempus consequat magnis, lectus etiam dictumst vestibulum torquent hac lobortis. Suspendisse lobortis dictumst nisi tincidunt inceptos, turpis tellus blandit interdum sollicitudin, pellentesque ut himenaeos natoque. Conubia velit porttitor diam vitae interdum facilisi, quam ut habitant at cum turpis, hac sem facilisis nibh rhoncus.",
+        introduction: "This About Me web is the first website I’ve ever made using the most common languages for website development: HTML5 and CSS3. With this project, I tried to show who is Gonzalo both, professionally and personally, talking a bit about myself, my hobbies, my skills and some of my previous studies. ",
         analysis: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis",
         finalresult: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis",
         
@@ -23,7 +23,7 @@ let projects = [
         imagecover: "/cover-saetabis-summer-school.png",
         period: "2022",
         image: "/moon.jpg",
-        introduction: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis, lacinia nascetur velit ultrices nec diam tempus consequat magnis, lectus etiam dictumst vestibulum torquent hac lobortis. Suspendisse lobortis dictumst nisi tincidunt inceptos, turpis tellus blandit interdum sollicitudin, pellentesque ut himenaeos natoque. Conubia velit porttitor diam vitae interdum facilisi, quam ut habitant at cum turpis, hac sem facilisis nibh rhoncus.",
+        introduction: "Saetabis Summer School is an organization which helps teenagers and young adults to learn and improve their English abroad. In order to do it, students spend a part of the summer in Ireland, taking English classes, living with an Irish family and enjoying different activities with other students. This is a real product/service website project which I tried my best working on it due to it was a family business, (it is run by my aunt in fact).",
         analysis: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis",
         finalresult: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis"
     },
@@ -36,7 +36,7 @@ let projects = [
         subtitle: "Full developed, focusing on Front End.",
         imagecover: "/cover-wod-maker.png",
         period: "2022",
-        introduction: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis, lacinia nascetur velit ultrices nec diam tempus consequat magnis, lectus etiam dictumst vestibulum torquent hac lobortis. Suspendisse lobortis dictumst nisi tincidunt inceptos, turpis tellus blandit interdum sollicitudin, pellentesque ut himenaeos natoque. Conubia velit porttitor diam vitae interdum facilisi, quam ut habitant at cum turpis, hac sem facilisis nibh rhoncus.",
+        introduction: "Wod Maker is a fast WOD (Workout Of the Day) generator app for people that want to practice Crosstraining wherever they want with material or not. They just have to choose the material they have and click on the Generate Wod button. The Wod will appear inmediatly below!",
         analysis: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis",
         finalresult: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis"
     },
@@ -49,10 +49,11 @@ let projects = [
         subtitle: "Developed with php and Wordpress.",
         imagecover: "/cover-emoji-book.png",
         period: "2022",
-        introduction: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis, lacinia nascetur velit ultrices nec diam tempus consequat magnis, lectus etiam dictumst vestibulum torquent hac lobortis. Suspendisse lobortis dictumst nisi tincidunt inceptos, turpis tellus blandit interdum sollicitudin, pellentesque ut himenaeos natoque. Conubia velit porttitor diam vitae interdum facilisi, quam ut habitant at cum turpis, hac sem facilisis nibh rhoncus.",
+        introduction: "The main task on the Emoji Book project was to turn a static web created with html and css into a flexible and dinamic website hosted on Wordpress. The different files have been structured with PHP.",
         analysis: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis",
         finalresult: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis"
     }
+    
 ]
 
 export function getAllProjects(){
