@@ -5,25 +5,21 @@ background-color: var(--white);
 flex-wrap: wrap;
 }
 
-img{
-    max-width: 580px;
-    overflow: hidden;
-    object-fit: cover;
-    width: 100%;
-}
 
-.text_content{
+
+.content_item{
     padding: var(--space);
     color: var(--blue-main);
     max-width: 580px;
+    flex-wrap: wrap;
 }
 
-.text_content h3{
+.content_item h3{
     padding:calc(var(--unit) * 2.5) 0;
     font-family: var(--font-baskerville);
 }
 
-.text_content p{
+.content_item p{
     font-family: var(--font-spartan);
     line-height: 1.4rem;
 }

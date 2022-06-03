@@ -10,7 +10,7 @@ export default function Intro() {
     return   <div className={styles.container_intro}> 
     
 
-        <h1 style={{ textAlign: `center`}}>Introduction:</h1>
+        <h2 style={{ textAlign: `center`}}>Introduction:</h2>
         
 
             <p className={styles.intro_p}>{proje.introduction}</p>

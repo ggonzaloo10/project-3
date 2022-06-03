@@ -40,6 +40,12 @@
    background-color: var(--blue-main);
  }
 
+ img{
+  max-width: 580px;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+}
 
 /* GENERAL COMPONENTS */
 
