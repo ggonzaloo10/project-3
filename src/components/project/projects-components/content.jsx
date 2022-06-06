@@ -8,30 +8,52 @@ export default function Content() {
     const proje = getProject(params.id);
 
     return <div className={styles.content}>
+
+        {/* ANALYSIS DIV */}
         <div className={styles.content_item}>
-            <h3 style={{ textAlign: `center` }}>Analysis & Preparation</h3>
-            <p>{proje.analysis}</p>
+            <div className={styles.content_item_section}>
+                <h3 style={{ textAlign: `center` }}>Analysis & Preparation</h3>
+                <p>{proje.analysis}</p>
+            </div>
+            <div className={styles.content_item_section}>
+                <h3 style={{ textAlign: `center` }}>{proje.wireframestitle}</h3>
+                <img src={proje.wireframespic} alt="" srcset="" />
+            </div>
+        </div>
+
+        {/* PART 1 CONTENT */}
+        <div className={styles.content_item}>
+            <div className={styles.content_item_section}>
+                <h3 style={{ textAlign: `center` }}>{proje.titleimg1}</h3>
+                <img src={proje.img1part1} alt="" />
+            </div>
+            <div className={styles.content_item_section}>
+                <h3 style={{ textAlign: `center` }}>{proje.titleimg2}</h3>
+                <img src={proje.img2part1} alt="" />
+            </div>
+        </div>
+
+        {/* PART 2 CONTENT */}
+        <div className={styles.content_item}>
+            <div className={styles.content_item_section}>
+                <h3 className={styles.content_h3} style={{ textAlign: `center`, width: `100%` }}>{proje.titletext3}</h3>
+                <p>{proje.text3}</p>
+            </div>
+
+            <div className={styles.content_items__pic}>
+                <img src={proje.img1text3} alt="" />
+
+                <img src={proje.img2text3} alt="" />
+            </div>
 
         </div>
-        <img src={proje.wireframespic} alt="" srcset="" />
+
+        {/* PART 3 CONTENT */}
         <div className={styles.content_item}>
-            <h3 style={{ textAlign: `center` }}>{proje.titletext1}</h3>
-            <img src={proje.img1text1} alt="" />
-            <img src={proje.img2text1} alt="" />
-        </div>
-        <div className={styles.content_item}>
-            <h3 style={{ textAlign: `center` }}>{proje.titletext2}</h3>
-            <img src={proje.img1text2} alt="" />
-        </div>
-        <div className={styles.content_item}>
-            <h3 style={{ textAlign: `center` }}>{proje.titletext3}</h3>
-            <div className={styles.content_item}>
-            <img src={proje.img1text3} alt="" />
-            </div>
-            <div className={styles.content_item}>
-            <img src={proje.img2text3} alt="" />
+            <div className={styles.content_item_section}>
+                <h3 style={{ textAlign: `center`, width: `100%` }}>{proje.titletext4}</h3>
+                <img src={proje.img1text4} alt="" />
             </div>
         </div>
-    
     </div >
 }

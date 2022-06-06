@@ -41,10 +41,12 @@
  }
 
  img{
+   height: fit-content;
   max-width: 580px;
   overflow: hidden;
   object-fit: cover;
   width: 100%;
+  margin: var(--space);
 }
 
 /* GENERAL COMPONENTS */
