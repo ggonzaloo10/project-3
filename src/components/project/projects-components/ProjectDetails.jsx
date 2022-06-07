@@ -1,6 +1,7 @@
 import Cover from "./Cover";
 import Intro from "./Intro";
 import Content from "./Content";
+import FinalResult from "./FinalResult";
 
 export function ProjectDetails() {
     return (
@@ -8,6 +9,7 @@ export function ProjectDetails() {
             <Cover />
             <Intro />
             <Content />
+            <FinalResult/>
         </div>
     )
 }

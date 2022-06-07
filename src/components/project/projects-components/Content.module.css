@@ -6,16 +6,16 @@
     color: var(--blue-main);
 }
 
-.content_item{
+.content_item {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.content_item_section{
+.content_item_section {
     padding: var(--space);
-    
+
     max-width: 580px;
     flex-wrap: wrap;
 }
@@ -44,3 +44,17 @@
     line-height: 1.4rem;
 }
 
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    max-width: 580px;
+}
+
+.tools div {
+    border: 1px solid var(--ocher);
+    border-radius: var(--unit);
+    padding: 0 var(--unit);
+    margin: 0 var(--unit) var(--space);
+}

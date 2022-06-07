@@ -22,8 +22,9 @@ let projects = [
         img2text3: "/astronomy-hobby-personal-web.png",
         titletext4: "Prototyping on Figma",
         img1text4: "/personal-web-figma.png",
-        finalresult: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis",
-        
+        finalresult: "The result was a nice website with a very easy and quick user flow. The wireframes changed until reach a predominantly white background color in order to make easier reading the information.",
+        finalresultpic: "/final-result-personal-web.png",
+        tools: ["HTML5", "CSS3", "Sass","Figma"]
     },
 
     {
@@ -48,7 +49,9 @@ let projects = [
         img2text3: "/atmosphere.png",
         titletext4: "Prototyping on Figma",
         img1text4: "/saetabis-summer-school-figma.png",
-        finalresult: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis"
+        finalresult: "Using a little of JavaScript to create some scroll effects, this website have a really good-looking landing page. Its navigation invites surfing through the different sections and check all the information and pictures. Responsive design let to appreciate the same final result effect on desktop and mobile too.",
+        finalresultpic: "/final-result-saetabis-summer-school.png",
+        tools: ["Figma","HTML5", "CSS3", "Sass","JavaScript", "ParcelJS"]
     },
 
     {
@@ -73,7 +76,10 @@ let projects = [
         img2text3: "/development-react-2.png",
         // titletext4: "",
         // img1text4: "",
-        finalresult: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis"
+        finalresult: "Even that it can be displayed on desktop, the final result looks quite great on mobile and tablet screens.",
+        finalresultpic: "/final-result-wod-maker.png",
+        tools: ["Figma","HTML5", "CSS3","JavaScript", "React"]
+
     },
 
     {
@@ -98,7 +104,10 @@ let projects = [
         img2text3: "/atmosphere.png",
         titletext4: "Prototyping on Figma",
         img1text4: "/saetabis-summer-school-figma.png",
-        finalresult: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis"
+        finalresult: "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis",
+        finalresultpic: "/final-result-personal-web.png",
+        tools: ["Figma","HTML5", "CSS3", "PHP","JavaScript", "WordPress"]
+
     }
     
 ]

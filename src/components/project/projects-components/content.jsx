@@ -55,6 +55,21 @@ export default function Content() {
                 <img src={proje.img1text4} alt="" />
             </div>
         </div>
+
+        {/* TOOLS */}
+
+        <div className={styles.content_item}>
+            <div className={styles.content_item_section}>
+                <h3 style={{ textAlign: `center` }}>Tools</h3>
+                <div className={styles.tools}>
+                    {proje.tools.map(tool =>
+
+                        <div>
+                            <p>#{tool}</p>
+                        </div>)}
+                </div>
+            </div>
+        </div>
     </div >
 }
 
