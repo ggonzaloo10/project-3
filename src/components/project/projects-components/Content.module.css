@@ -55,6 +55,6 @@
 .tools div {
     border: 1px solid var(--ocher);
     border-radius: var(--unit);
-    padding: 0 var(--unit);
+    padding: 4px var(--unit) 0;
     margin: 0 var(--unit) var(--space);
 }
