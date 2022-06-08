@@ -1,0 +1,27 @@
+.cover{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--blue-main);
+    font-size: clamp(1rem, 8vw - 1.2rem, 2rem);
+    /* filter: blur(25px); */
+
+}
+
+.note_cover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: var(--font-baskerville);
+    font-size: clamp(0.5rem, 8vw - 0.8rem, 1.2rem);
+    color: var(--white);
+    padding: var(--space) var(--space) 0;
+}
+
+.note_cover p{
+    max-width: 60%;
+}

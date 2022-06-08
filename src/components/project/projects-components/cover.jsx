@@ -1,16 +1,24 @@
 import React from "react";
-import './style-cover.css';
+import styles from "./Cover.module.css";
+import { useParams } from "react-router-dom";
+import { getProject } from "../../../projects";
 
-export default function Cover(props) {
+export default function Cover() {
+    const params = useParams();
+    const proje = getProject(params.id);
 
-    return <div>
-        <div className="cover">
-            <h1>{props.title}</h1>
-            <button><a href="_blank">Visit Website</a></button>
+    return   <div className={styles.container}> 
+    <div style={{ backgroundImage: `url(${proje.imagecover})`, backgroundPosition: 'center', backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat'}} className={styles.cover} >
+
+        <h1 style={{ textAlign: `center`}} className={proje.theme}>{proje.title}</h1>
+        <a href={proje.url} target="_blank" rel="noreferrer"><button className={proje.buttontheme}>Visit Website</button></a>
         </div>
-        <div className="note-cover">
-            <h2>{props.role}</h2>
-            <h2>{props.period}</h2>
+
+        <div className={styles.note_cover}>
+            <p>{proje.subtitle}</p>
+            <p>{proje.period}</p>
         </div>
+
     </div>
 }

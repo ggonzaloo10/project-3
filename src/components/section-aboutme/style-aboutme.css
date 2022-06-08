@@ -32,21 +32,7 @@ section {
     line-height: 21px;
 }
 
-.button {
-    border: 1px solid var(--ocher);
-    background-color: transparent;
-    color: var(--white);
-    font-family: var(--font-spartan);
-    padding: var(--unit);
-    font-size: calc(var(--unit) * 2);
-    transition: all 0.2s ease;
-    
-}
 
-.button:hover {
-    color: var(--blue-main);
-    background-color: var(--white);
-}
 
 .aboutMe-content {
     display: flex;

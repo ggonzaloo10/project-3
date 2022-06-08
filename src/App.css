@@ -20,6 +20,10 @@
   --space: calc(var(--unit) * 2);
 }
 
+
+
+/* SITE  */
+
 *{
   box-sizing: border-box;
    padding: 0 0 0 0;
@@ -36,6 +40,52 @@
    background-color: var(--blue-main);
  }
 
- button{
-   cursor: pointer;
- }
+ img{
+   height: fit-content;
+  max-width: 580px;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  /* margin: var(--space); */
+}
+
+/* GENERAL COMPONENTS */
+
+.light{
+  color: var(--white);
+}
+
+ .button {
+  border: 1px solid var(--ocher);
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-spartan);
+  padding: var(--unit);
+  font-size: calc(var(--unit) * 2);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+}
+
+.button:hover {
+  color: var(--blue-main);
+  background-color: var(--white);
+}
+
+.button_dark {
+  border: 1px solid var(--blue-main);
+  background-color: transparent;
+  color: var(--blue-main);
+  font-family: var(--font-spartan);
+  padding: var(--unit);
+  font-size: calc(var(--unit) * 2);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+}
+
+.button_dark:hover{
+  color: var(--white);
+  background-color: var(--blue-main);
+  border-color: var(--ocher);
+}
