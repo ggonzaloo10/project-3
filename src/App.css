@@ -49,6 +49,11 @@
   /* margin: var(--space); */
 }
 
+h1{
+  font-family: var(--font-spartan);
+}
+
+
 /* GENERAL COMPONENTS */
 
 .light{

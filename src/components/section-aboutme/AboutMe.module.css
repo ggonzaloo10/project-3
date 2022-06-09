@@ -7,7 +7,7 @@ section {
 
 
 
-h1 {
+.aboutMe_h1 {
     font-family: var(--font-baskerville);
     font-style: normal;
     font-weight: 400;
@@ -27,6 +27,7 @@ h1 {
     font-weight: 400;
     font-size: calc(var(--unit) * 3);
     line-height: calc(var(--unit) * 4);
+    margin: var(--space) 0;
 }
 
 .aboutMe_title {

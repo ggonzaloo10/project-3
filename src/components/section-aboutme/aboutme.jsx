@@ -8,7 +8,7 @@ export default function AboutMe() {
     return <section id='aboutMe'>
 
         <div className={styles.aboutMe_title}>
-            <h1>Gonzalo Soriano</h1>
+            <h1 className={styles.aboutMe_h1}>Gonzalo Soriano</h1>
             <h2 className={styles.h2_typewrite_effect_disable}>Ready for <strong>NEW</strong> challenges!!</h2>
         </div>
 
