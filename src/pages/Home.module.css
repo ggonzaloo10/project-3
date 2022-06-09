@@ -1,0 +1,114 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.aboutMe_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: var(--space);
+    height: 80vh;
+}
+
+.aboutMe_title h1 {
+    font-family: var(--font-baskerville);
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(var(--unit) * 8);
+    line-height: calc(var(--unit) * 8);
+
+    /* Ocre */
+
+    color: var(--ocher);
+
+}
+
+.h2_typewrite_effect {
+    font-family: var(--font-spartan);
+    color: var(--white);
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(var(--unit) * 3);
+    line-height: calc(var(--unit) * 4);
+    border-right: 2px solid var(--white);
+    overflow: hidden;
+    white-space: nowrap;
+    animation: control-width 3s steps(28) 2s both, blink 0.5s infinite;
+    margin: var(--space) 0;
+  }
+
+  @keyframes control-width {
+    from {
+      width: 0;
+    }
+    to {
+      width: 285px;
+    }
+  }
+
+  @keyframes blink {
+    from {
+      border-right-color: var(--white);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+
+.aboutMe_content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: var(--space);
+    padding: var(--space);
+    background: var(--white);
+    border-radius: var(--unit);
+    filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.25));
+}
+
+.aboutMe_text {
+    font-family: var(--font-baskerville);
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(var(--unit) * 1.5);
+    line-height: var(--space);
+    color: var(--blue-main);
+    margin-top: var(--unit);
+    list-style: none;
+}
+
+.aboutMe_h3 {
+    font-family: var(--font-spartan, sans-serif);
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(var(--unit) * 4.5);
+    line-height: calc(var(--unit) * 4.5);
+    color: var(--blue-main);
+}
+
+.aboutMe_h4 {
+    font-family: var(--font-spartan, sans-serif);
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(var(--unit) * 2);
+    line-height: calc(var(--unit) * 2);
+    color: var(--blue-main);
+    margin-top: var(--unit);
+}
+
+.aboutMe_content_item {
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.aboutMe_pic {
+    width: 124px;
+    border-radius: 62px;
+}

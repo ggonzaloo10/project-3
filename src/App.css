@@ -49,6 +49,11 @@
   /* margin: var(--space); */
 }
 
+h1{
+  font-family: var(--font-spartan);
+}
+
+
 /* GENERAL COMPONENTS */
 
 .light{
@@ -60,7 +65,7 @@
   background-color: transparent;
   color: var(--white);
   font-family: var(--font-spartan);
-  padding: var(--unit);
+  padding: var(--unit) var(--space);
   font-size: calc(var(--unit) * 2);
   transition: all 0.2s ease;
   cursor: pointer;

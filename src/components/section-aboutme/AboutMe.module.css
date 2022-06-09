@@ -1,0 +1,114 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+
+.aboutMe_h1 {
+    font-family: var(--font-baskerville);
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(var(--unit) * 8);
+    line-height: calc(var(--unit) * 8);
+
+    /* Ocre */
+
+    color: var(--ocher);
+
+}
+
+.h2_typewrite_effect_disable {
+    font-family: var(--font-spartan);
+    color: var(--white);
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(var(--unit) * 3);
+    line-height: calc(var(--unit) * 4);
+    margin: var(--space) 0;
+}
+
+.aboutMe_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: calc(var(--space) * 8) var(--space) 0;
+}
+
+
+.aboutMe_content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: var(--space);
+    padding: var(--space);
+    background: var(--white);
+    border-radius: var(--unit);
+    filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.25));
+    color: var(--blue-main);
+}
+
+.aboutMe_content_item {
+    display: flex;
+    align-items: center;
+
+}
+
+.aboutMe_content_item_text {
+    font-family: var(--font-spartan);
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--space);
+}
+
+.aboutMe_content_item_text p, ul {
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(var(--unit) * 2.5);
+    line-height: calc(var(--unit) * 3);
+    margin-top: var(--unit);
+    list-style: none;
+}
+
+.aboutMe_content_item_text ul {
+    list-style: none;
+    margin-top: var(--unit);
+}
+
+
+
+.aboutMe_pic {
+    width: 124px;
+    border-radius: 62px;
+    overflow: visible;
+}
+
+.margin64{
+    margin: calc(var(--unit) * 8) var(--space) var(--space);
+
+}
+
+.aboutMe_h4 {
+    font-family: var(--font-spartan, sans-serif);
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(var(--unit) * 3);
+    line-height: calc(var(--unit) * 4.5);
+    color: var(--blue-main);
+    margin-top: var(--unit);
+    max-width: 70%;
+}
+
+.aboutMe_h3 {
+    font-family: var(--font-spartan, sans-serif);
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(var(--unit) * 8);
+    line-height: calc(var(--unit) * 4.5);
+}
+
