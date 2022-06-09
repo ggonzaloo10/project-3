@@ -1,6 +1,7 @@
 .link-card {
     display: contents;
-    color: var(--blue-main);
+    color: var(--white);
+    transition: all 0.2s ease;
 }
 
 .grid-projects {
@@ -19,23 +20,39 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
+    margin: calc(var(--unit) * 3) 0;
+    padding: 0 var(--space);
 
 }
 
 .projects-card {
-    background-color: var(--white);
+    background-color: var(--blue-main);
+    color: var(--white);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 24px;
     margin: var(--space) 0;
+    border: 3px solid var(--ocher);
     border-radius: var(--unit);
-    width: 80%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 600px;
     cursor: pointer;
+    transition: all 0.2s ease;
 
 
+}
+
+.projects-card:hover{
+    background-color: var(--white);
+    color: var(--blue-main);
+    border: 3px solid var(--white);
+    filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.25));
+}
+
+.projects-card:hover .link-card{
+    color: var(--blue-main);
 }
 
 .card-title{
@@ -46,7 +63,7 @@
     font-size: clamp(1.5rem, 8vw - 1.6rem, 1.8rem);
     line-height: 26px;
     
-    color: var(--blue-main);
+    /* color: var(--blue-main); */
 }
 
 .card-title p{
@@ -55,5 +72,6 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
-    color: var(--blue-main);
+    margin-top: 4px;
+    /* color: var(--blue-main); */
 }

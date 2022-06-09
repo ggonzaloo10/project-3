@@ -14,7 +14,7 @@ export default function Home() {
 
 
 
-        <button style={{alignSelf: `center`}} className='button'>Projects</button>
+        <Link to={"/projects"} style={{alignSelf: `center`}}> <button  className='button'>Projects</button></Link>
 
 
 
