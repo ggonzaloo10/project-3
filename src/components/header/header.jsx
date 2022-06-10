@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import './style-header.css';
 
 export default function Header() {
@@ -25,9 +26,10 @@ export default function Header() {
         </svg> 
         }
         </div>
-        { stateMenu && <div className="menu-links">
-            <a href="#projects">Projects</a>
-            <a href="#aboutMe">About me</a>
+        {stateMenu && <div className="menu-links">
+            <Link to={"/home"}>Home</Link>
+            <Link to={"/about-me"}>About me</Link>
+            <Link to={"/projects"}>Projects</Link>
             <a href="#contact">Contact</a>
         </div>}
     </header>;
