@@ -35,6 +35,7 @@ let projects = [
         subtitle: "Full developed, focusing on UX/UI.",
         imagecover: "/cover-saetabis-summer-school.png",
         period: "2022",
+        url:"https://ggonzaloo10.github.io/index.html",
         introduction: "Saetabis Summer School is an organization which helps teenagers and young adults to learn and improve their English abroad. In order to do it, students spend a part of the summer in Ireland, taking English classes, living with an Irish family and enjoying different activities with other students. This is a real product/service website project which I tried my best working on it due to it was a family business, (it is run by my aunt in fact).",
         analysis: "One of the key points of this project, was to find the potencial user persona in order to create an attractive and intuitive user interface. The most common profiles were collegues students, high school students and their parents as well.",
         wireframestitle: "Leaflet",

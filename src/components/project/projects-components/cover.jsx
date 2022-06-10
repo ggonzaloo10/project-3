@@ -8,7 +8,7 @@ export default function Cover() {
     const proje = getProject(params.id);
 
     return   <div className={styles.container}> 
-    <div style={{ backgroundImage: `url(${proje.imagecover})`, backgroundPosition: 'center', backgroundSize: 'cover',
+    <div style={{ backgroundImage: `url(${proje.imagecover})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundAttachment: `fixed`,
     backgroundRepeat: 'no-repeat'}} className={styles.cover} >
 
         <h1 style={{ textAlign: `center`}} className={proje.theme}>{proje.title}</h1>
