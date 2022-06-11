@@ -1,4 +1,4 @@
-header {
+.header {
     position: absolute;
     width: 100%;
     min-height: 60px;
@@ -7,7 +7,7 @@ header {
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+   
     padding: calc(var(--unit) * 2);
     font-family: var(--font-spartan, sans-serif);
     filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.25));
@@ -45,4 +45,46 @@ header {
     line-height: 35px;
     text-decoration: none;
     color: var(--blue-main);
+}
+
+.menu-links_desktop a {
+    padding: 0 var(--space);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    text-decoration: none;
+    color: var(--blue-main);
+}
+
+
+@media (max-width: 800px) {
+    .menu-links_desktop{
+display: none;
+    }
+
+    .header{
+        justify-content: center;
+    }
+
+    
+}
+
+@media (min-width: 800px) {
+    .menu-icon{
+display: none;
+    };
+
+    .menu-links_desktop{
+        display: flex;
+        align-self: flex-end;
+    };
+
+    .header{
+        justify-content: flex-end;
+    }
+
+    .header-desktop{
+        display: flex;
+        justify-content: flex-end;
+    };
 }
