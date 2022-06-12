@@ -48,11 +48,15 @@
 }
 
 .menu-links_desktop a {
-    padding: 0 var(--space);
+    margin: 0 var(--space);
     font-weight: 700;
     font-size: 24px;
     line-height: 35px;
     text-decoration: none;
+    color: var(--blue-medium);
+}
+
+.menu-links_desktop a:hover {
     color: var(--blue-main);
 }
 
