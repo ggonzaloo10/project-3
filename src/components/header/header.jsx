@@ -29,15 +29,15 @@ export default function Header() {
         {stateMenu && <div className="menu-links">
             <Link to={"/home"}>Home</Link>
             <Link to={"/about-me"}>About me</Link>
-            <Link to={"/projects"}>Projects</Link>
-            <a href="#contact">Contact</a>
+            <Link  to={"/projects"}>Projects</Link>
+            <a  href="#contact">Contact</a>
         </div>}
 
         <div className="menu-links_desktop">
-            <Link to={"/home"}>Home</Link>
-            <Link to={"/about-me"}>About me</Link>
-            <Link to={"/projects"}>Projects</Link>
-            <a href="#contact">Contact</a>
+            <Link className="hover-underline-animation" to={"/home"}>Home</Link>
+            <Link className="hover-underline-animation" to={"/about-me"}>About me</Link>
+            <Link className="hover-underline-animation" to={"/projects"}>Projects</Link>
+            <a className="hover-underline-animation" href="#contact">Contact</a>
         </div>
     </header>;
 }
