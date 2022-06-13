@@ -84,6 +84,7 @@ section {
 
 .aboutMe_pic {
     width: 124px;
+    height: 124px;
     border-radius: 62px;
     overflow: visible;
 }
@@ -101,6 +102,7 @@ section {
     line-height: calc(var(--unit) * 4.5);
     color: var(--blue-main);
     margin-top: var(--unit);
+    margin-right: var(--unit);
     max-width: 70%;
 }
 
