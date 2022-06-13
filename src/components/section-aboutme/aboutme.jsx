@@ -44,7 +44,7 @@ export default function AboutMe() {
         </div>
 
         <a href="./cv_GonzaloSoriano_ing.pdf" target="_blank"><button className='button'>Curriculum Vitae.pdf</button></a>
-        <h2 className={styles.h2_typewrite_effect_disable+" "+styles.margin64}>If you want to see more <strong>MORE</strong> check out my last projects!</h2>
+        <h2 className={styles.h2_typewrite_effect_disable+" "+styles.margin64}>If you want to see <strong>MORE</strong> check out my last projects!</h2>
         <Link to={"/projects"}><button className='button'>Projects</button></Link>
     </section >;
 }

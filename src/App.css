@@ -23,6 +23,9 @@
 
 
 /* SITE  */
+html{
+  scroll-behavior: smooth;
+}
 
 *{
   box-sizing: border-box;
@@ -38,6 +41,7 @@
 
  body{
    background-color: var(--blue-main);
+   
  }
 
  img{
